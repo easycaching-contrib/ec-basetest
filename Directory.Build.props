@@ -1,0 +1,30 @@
+<Project>
+  <Import Project="build\dependencies.props" />
+  <Import Project="build\releasenotes.props" />
+  <Import Project="build\version.props" />
+
+  <PropertyGroup>    
+    <Description>
+			Base test form easycaching.
+		</Description>
+		<PackageTags>Redis,DistributedCache,Caching,Cache,Test</PackageTags>
+
+    <VersionPrefix>$(EasyCachingBaseTestPackageVersion)</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
+    <Owners>ncc;Catcher Wong</Owners>
+		<Authors>ncc;Catcher Wong</Authors>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <LangVersion>latest</LangVersion>
+    <PackageProjectUrl>https://github.com/easycaching-contrib/ec-basetest</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/easycaching-contrib/ec-basetest</RepositoryUrl>
+    <PackageIcon>nuget-icon.png</PackageIcon>
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<NoWarn>$(NoWarn);1591</NoWarn>    
+    <PackageReleaseNotes>
+			$(EasyCachingBaseTestPackageNotes)
+		</PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>

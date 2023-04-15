@@ -1,0 +1,8 @@
+<Project>
+	<PropertyGroup>
+		<EasyCachingCorePackageVersion>1.9.0</EasyCachingCorePackageVersion>
+		<FakeItEasyPackageVersion>7.3.1</FakeItEasyPackageVersion>
+		<MemoryPackPackageVersion>1.9.13</MemoryPackPackageVersion>
+		<protobuf-netPackageVersion>3.2.16</protobuf-netPackageVersion>
+	</PropertyGroup>
+</Project>

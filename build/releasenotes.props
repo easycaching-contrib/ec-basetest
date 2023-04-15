@@ -1,0 +1,7 @@
+<Project>
+	<PropertyGroup>
+		<EasyCachingBaseTestPackageNotes>
+		1. Split test base from easycaching test project.
+		</EasyCachingBaseTestPackageNotes>
+	</PropertyGroup>
+</Project>
