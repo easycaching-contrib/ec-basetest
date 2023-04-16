@@ -94,7 +94,7 @@ public abstract class BaseRedisFeatureCachingProviderTest
 
         var persistedTtl = await _provider.TTLAsync(cacheKey);
 
-        Assert.Equal(persistedTtl, -1);
+        Assert.Equal(-1, persistedTtl);
 
         await _provider.KeyDelAsync(cacheKey);
     }
