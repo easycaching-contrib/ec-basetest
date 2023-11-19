@@ -1,5 +1,5 @@
 <Project>
 	<PropertyGroup>
-		<EasyCachingBaseTestPackageVersion>1.9.2</EasyCachingBaseTestPackageVersion>
+		<EasyCachingBaseTestPackageVersion>1.9.3</EasyCachingBaseTestPackageVersion>
 	</PropertyGroup>
 </Project>
