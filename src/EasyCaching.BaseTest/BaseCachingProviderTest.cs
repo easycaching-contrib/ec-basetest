@@ -10,7 +10,11 @@ public abstract class BaseCachingProviderTest
 
     protected BaseCachingProviderTest()
     {
-        _provider = CreateCachingProvider(options => options.SleepMs = 3000);
+        _provider = CreateCachingProvider(options =>
+        {
+            options.SleepMs = 3000;
+            options.CacheNulls = false;
+        });
         _providerWithNullsCached = CreateCachingProvider(options => options.CacheNulls = true);
     }
 
