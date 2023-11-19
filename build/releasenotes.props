@@ -1,7 +1,8 @@
 <Project>
 	<PropertyGroup>
 		<EasyCachingBaseTestPackageNotes>
-		1. Split test base from easycaching test project.
+			1. assign fixed cacheNulls value.
+			2. update EasyCaching.Core version to 1.9.2
 		</EasyCachingBaseTestPackageNotes>
 	</PropertyGroup>
 </Project>
