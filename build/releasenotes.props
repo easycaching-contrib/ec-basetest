@@ -1,8 +1,7 @@
 <Project>
 	<PropertyGroup>
 		<EasyCachingBaseTestPackageNotes>
-			1. assign fixed cacheNulls value.
-			2. update EasyCaching.Core version to 1.9.2
+			1. update EasyCaching.Core version to 1.9.4
 		</EasyCachingBaseTestPackageNotes>
 	</PropertyGroup>
 </Project>
